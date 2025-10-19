@@ -32,11 +32,12 @@ def main():
             print("Invalid Input")
 
     #printing highest score
-    with open("score.csv") as file:
-        reader =csv.reader(file)
-        for row in reader:
-            if row[0].strip().lower()==name.lower():
-                print(f"Your highest score is: {row[1]}")
+    if update:
+        with open("score.csv") as file:
+            reader =csv.reader(file)
+            for row in reader:
+                if row[0].strip().lower()==name.lower():
+                    print(f"Your highest score is: {row[1]}")
 
 
 def highest_score(user, score):
