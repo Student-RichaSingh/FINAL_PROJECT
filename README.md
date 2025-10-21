@@ -1,5 +1,5 @@
 # Guessing Game
-#### Video Demo: [Add your YouTube video link here]
+#### Video Demo: https://youtu.be/RwJrnTkFCVM
 #### Description:
 
 This is my final project for CS50’s Introduction to Programming with Python.  
